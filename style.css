@@ -1,0 +1,363 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #050816;
+    display: flex;
+    
+}
+#html{
+    scroll-behavior: smooth;
+}
+*{
+        font-family: 'Space Grotesk', sans-serif;
+
+}
+
+#verbox {
+    position: sticky;
+    top:0;
+    margin-top:15px ;
+    height: 95vh;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:#050816;
+    gap:20px;
+    box-shadow: 5px -5px 10px rgb(19, 15, 205);
+}
+#navbar img{
+     width: 35px;
+    height: 35px;
+}
+#navbar h3{
+           color: #FFFFFF;
+ 
+}
+#navbar footer{
+            color: #FFFFFF;
+
+}
+#navbar footer:hover{
+    cursor: pointer;
+}
+
+
+
+#navbar a{
+        color: #FFFFFF;
+        padding: 5px;
+        padding-right: 5px;
+
+}
+#navbar a:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+#main{
+        flex:1;
+
+}
+#Home{
+    
+    padding: 60px;
+    padding-top: 5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 1;
+
+}
+#homecontent{
+    color: #FFFFFF;
+    align-items: flex-start;   
+}
+#homecontent h1,h2{
+margin: 0;
+}
+#homecontent h2{
+    color: #A855F7;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#heading{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111827;
+    border: 1px solid #A855F7;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 0 15px rgba(168,85,247,0.3);
+    margin-bottom: 60px;
+        
+
+}
+#work{
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #A855F7;
+    background-color: #111827;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+#resume{
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #A855F7;
+    background-color: #111827;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#resume a{
+    color: #FFFFFF;
+
+}
+#resume:hover{
+    transform: scale(1.1);
+}
+#cgpa{
+    width:250px;  
+ border-radius: 50px;
+    border: 1px solid #A855F7;
+    background-color: #111827;
+    color: #FFFFFF;
+    padding: 25px;
+    cursor: pointer;
+    margin-left: 0px;
+margin-top: 5px;
+}
+#cgpa:hover{
+    transform: scale(1.1);
+}
+
+#aboutme{
+    padding: 5px;
+color: #A855F7;
+margin-left: 20px;
+z-index: 2;
+border-radius: 15px;
+box-shadow: 0 0 50px #042e8a;
+border: 5px solid #A855F7;
+width: 1100px;
+    padding-top: 20px;
+
+
+}
+#aboutme h4{ 
+    color: #FFFFFF;
+}
+#logos{
+    display: flex;
+    gap: 20px;
+}
+#logo1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+    border: 5px solid #A855F7;
+}
+#logo2 img{
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+    border: 5px solid #A855F7;
+    
+}
+#logo3 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+    border: 5px solid #A855F7;
+}
+#logo4 img{
+    height: 100px;
+    width: 120px;
+   border: 5 px solid #A855F7;
+border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+}
+#logo5 img{
+    height: 100px;
+    width: 120px;
+   border: 5 px solid #A855F7;
+border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#pro{
+    padding: 5px;
+color: #A855F7;
+margin-left: 20px;
+z-index: 2;
+border-radius: 15px;
+box-shadow: 0 0 50px #042e8a;
+border: 5px solid #A855F7;
+width: 1100px;
+}
+#pro h4{
+    color: #FFFFFF;
+}
+#proimg{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+#img1 img{
+    
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 5 px solid #A855F7;
+border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#img1 img:hover{
+    transform: scale(1.1);
+}
+#img2 img{
+    
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5 px solid #A855F7;
+border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#img2 img:hover{
+    transform: scale(1.1);
+}
+
+#img3 img{
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5 px solid #A855F7;
+border-radius: 10px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#img3 img:hover{
+    transform: scale(1.1);
+}
+#img4 img{
+    
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5 px solid #A855F7;
+border-radius: 20px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#img4 img:hover{
+    transform: scale(1.1);
+}
+#note{
+    color: white;
+    margin-top: 10px;
+    max-width: 400px;
+}
+#myresume{
+    padding: 5px;
+color: #A855F7;
+margin-left: 20px;
+z-index: 2;
+border-radius: 15px;
+box-shadow: 0 0 50px #042e8a;
+border: 5px solid #A855F7;
+width: 1100px;
+
+}
+#res{
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+}
+#study{
+     width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5px solid #A855F7;
+border-radius: 5px;
+    box-shadow: 0 0 50px #A855F7;
+}
+#study:hover{
+    transform: scale(1.1);
+}
+#study h3{
+    color: #8d6fa8;
+}
+#study h4,h5{
+    color:#FFFFFF;
+}
+#fieldofstudy{
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5px solid #A855F7;
+border-radius: 5px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#fieldofstudy:hover{
+    transform: scale(1.1);
+}
+#fieldofstudy h4{
+    color: #A855F7;
+}
+#achievements{
+     width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 5px solid #A855F7;
+border-radius: 5px;
+    box-shadow: 0 0 50px #A855F7;
+
+}
+#achievements:hover{
+    transform: scale(1.1);
+}
+#contactme{
+    padding: 5px;
+color: #A855F7;
+margin-left: 20px;
+z-index: 2;
+border-radius: 15px;
+box-shadow: 0 0 50px #042e8a;
+border: 5px solid #A855F7;
+width: 1100px
+
+
+}
+#cnt{
+    display: flex;
+    gap:20px;
+}
+#mail{
+    margin-left: 2px;
+    padding: 3px;
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #A855F7;
+border-radius: 5px;
+    box-shadow: 0 0 50px #A855F7;
+    color: #FFFFFF;
+}
+#mail:hover{
+    transform: scale(1.1);
+}
+
+
